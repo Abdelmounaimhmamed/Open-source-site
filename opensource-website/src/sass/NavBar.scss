@@ -1,0 +1,53 @@
+@import "variables";
+
+.site-navbar {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  z-index: 4;
+  transition: all 0.2s ease-in-out;
+
+  .nav-item {
+    margin: 0 1.5vw;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: 0.15s;
+
+    &:hover {
+      color: #d55656;
+    }
+  }
+  .brand-logo {
+    margin-right: 10px;
+  }
+  .brand-name {
+    vertical-align: middle;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  // iPhone portrait
+}
+
+@media screen and (max-width: 30em) {
+  // iPhone landscape
+}
+
+@media screen and (max-width: 48em) {
+  // iPad portrait
+  .nav-item {
+    margin: 1.5vw 0 !important;
+    cursor: pointer;
+    font-size: 2vw !important;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  // iPad landscape
+}
