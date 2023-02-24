@@ -6,6 +6,8 @@ import LandingPage from "./views/LandingPage";
 import NotFound from "./views/404";
 import Speakers from "./views/Speakers";
 
+// Test test
+
 function App() {
     return (
         <Router>
